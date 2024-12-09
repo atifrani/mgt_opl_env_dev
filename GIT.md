@@ -108,5 +108,6 @@ Sur votre terminal ou git Bash, positinnez vous sur dans le répertoire **my-pro
 ```
 git status
 ```
+![alt text](images/git5.png)
 
 Téléchargez les deux fichier ci-dessous et copiez les dans le répertoire **my-project**
