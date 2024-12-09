@@ -392,3 +392,58 @@ Vous pouvez par la suite supprimer votre branch **diplomes**.
 ```
 git branch -d diplomes
 ```
+
+# introduction a github:
+
+GitHub est un service Web qui utilise Git, il permet une collaboration en temps réel, GitHub encourage les équipes à travailler ensemble pour créer et modifier le contenu de leur projets.
+
+![alt text](images/git20.png)
+
+## Creation d'un compte github:
+
+1. Accédez à https://github.com/.
+2. Cliquez sur S’inscrire.
+3. Suivez les étapes pour créer votre compte personnel.
+
+## Comment créer un dépôt:
+
+Vous pouvez créer un nouveau dépôt sur votre compte personnel ou dans toute organisation pour laquelle vous disposez des autorisations suffisantes.  
+
+1. Commençons par créer un dépôt à partir de **github.com**.  
+
+2. Dans le coin supérieur droit de n'importe quelle page, utilisez le **menu déroulant** et sélectionnez **Nouveau dépôt**.
+
+3. Utilisez le menu déroulant Propriétaire pour sélectionner le compte auquel vous souhaitez attribuer le référentiel.  
+
+4. Saisissez un **nom pour votre référentiel** et une description facultative.  
+
+5. Choisissez une visibilité du référentiel.
+
+    * Les référentiels **publics** sont accessibles à tous sur Internet.
+
+    * Les référentiels **privés** ne sont accessibles qu'à vous, aux personnes avec lesquelles vous partagez explicitement l'accès et, pour les référentiels d'organisation, à certains membres de l'organisation.
+
+6. Sélectionnez **Créer** un référentiel et félicitations ! Vous venez de créer un référentiel !
+
+Une fois le dépôt créé, copiez le sur votre ordinateur en utilisant la commande **git clone**
+
+```
+git clone <url du dépôt>
+```
+
+Copiez les fichiers de votre projet my-project dans votre nouveau dépôt.  
+
+Réalisez le workflow de base pour enregistrer les modifications dans votre dépôt git.    
+
+```
+git status
+git add .
+git commit -m "initial commit"
+git status
+```
+Pour pousser les modifications sur votre dépôt distant, utilisez la commande **git push**
+
+```
+git push origin main
+```
+Vérifiez que les modifications sont bien sur votre dépôt distant github.
