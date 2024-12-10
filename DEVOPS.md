@@ -43,7 +43,7 @@ sont :
 * Automatisation ;
 * Lean ;
 * Mesure ;
-* Share.
+* Share.  
 **CALMS** est un framework qui évalue la capacité d'une entreprise à adopter les processus DevOps et qui permet de mesurer la réussite lors d'une transformation DevOps.
 
 * **Culture:**  
