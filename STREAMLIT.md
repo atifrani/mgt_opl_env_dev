@@ -1,4 +1,4 @@
-## Installation de python:
+## Installation de python  :snake: :
 
 Installer Python sur votre ordinateur est simple et rapide.  
 
@@ -83,10 +83,18 @@ deactivate
 
 ### Installez la bibliothèque Streamlit
 
-Il est maintenant temps d'installer la bibliothèque streamlit :  
+
+Dans votre projet, créez un fichier ***requirements.txt** et saisissez ce qui suit :
 
 ```
-pip install streamlit
+streamlit
+```
+Sauvegardez votre fichier ***requirements.txt***.
+
+Il est maintenant temps d'installer la bibliothèque ***streamlit*** :  
+
+```
+pip install -r requirements.txt
 ```
 
 ### Lancement de la démo Streamlit
