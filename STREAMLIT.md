@@ -87,6 +87,13 @@ Déroulement de l'application :
     * Par défaut, l'application affiche "Goodbye"
     * En cliquant sur le bouton, l'application affiche le message alternatif "Why Hello?"
 
+```
+git branch button     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout button   # se positionner sur la nouvelle branch
+```
 
 Créez un nouveau fichier slt_button_app.py Copiez les lignes de code suivantes dans votre fichier slt_button_app.py:  
 
@@ -119,12 +126,28 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 git status
 git add slt_button_app.py
 git commit -m 'ajout d'un bouton'
-git push origin main
+git push origin button
+```
+
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge button
 ```
 
 ### Streamlit Slider:
 
 Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le slider.  
+
+```
+git branch slider     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout slider   # se positionner sur la nouvelle branch
+```
+
 
 Créez un nouveau fichier slt_slider_app.py Copiez les lignes de code suivantes dans votre fichier slt_silder_app.py:  
 
@@ -191,10 +214,68 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 git status
 git add slt_slider_app.py
 git commit -m 'ajout d'un slider'
-git push origin main
+git push origin slider
+```
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge slider
 ```
 
+### Streamlit Line Chart:
 
+Une application simple pour afficher un graphique linéaire:
 
-https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset/data
+Créez un **DataFrame** **Pandas** à partir de nombres générés aléatoirement via **NumPy**.  
+Créez et affichez le graphique linéaire via la commande **st.line_chart()**.   
 
+```
+git branch linechart     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout linechart   # se positionner sur la nouvelle branch
+```
+
+Créez un nouveau fichier slt_linechart_app.py Copiez les lignes de code suivantes dans votre fichier slt_linechart_app.py:  
+
+```
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+st.header('Line chart')
+
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
+
+st.line_chart(chart_data)
+
+```
+
+Enregistrez le fichier.   
+
+Relancez votre application streamlit si nécessaire:  
+
+```
+streamlit run slt_linechart_app.py
+```
+
+Vérifiez le résultat qui s'affiche sur votre navigateur.  
+
+Retournez sur le terminal et exécuter les commandes suivantes:
+
+```
+git status
+git add slt_linechart_app.py
+git commit -m 'ajout d'un line chart'
+git push origin linechart
+```
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge linechart
+```
