@@ -80,6 +80,7 @@ git commit -m 'initial streamlit app'
 git push origin main
 ```
 
+### Streamlit button:
 
 * Une application simple qui affiche des messages différents selon que le bouton ait été pressé ou non.
 Déroulement de l'application :  
@@ -87,7 +88,7 @@ Déroulement de l'application :
     * En cliquant sur le bouton, l'application affiche le message alternatif "Why Hello?"
 
 
-Copiez les lignes de code suivantes dans votre fichier streamlit_app.py:  
+Créez un nouveau fichier slt_button_app.py Copiez les lignes de code suivantes dans votre fichier slt_button_app.py:  
 
 ```
 import streamlit as st
@@ -107,7 +108,7 @@ Enregistrez le fichier.
 Relancez votre application streamlit si nécessaire:  
 
 ```
-streamlit run streamlit_app.py
+streamlit run slt_button_app.py
 ```
 
 Vérifiez le résultat qui s'affiche sur votre navigateur.  
@@ -116,8 +117,84 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 
 ```
 git status
-git add streamlit_app.py
+git add slt_button_app.py
 git commit -m 'ajout d'un bouton'
 git push origin main
 ```
+
+### Streamlit Slider:
+
+Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le slider.  
+
+Créez un nouveau fichier slt_slider_app.py Copiez les lignes de code suivantes dans votre fichier slt_silder_app.py:  
+
+* L'utilisateur sélectionne la valeur en ajustant le slider
+* L'application affiche la valeur sélectionnée
+
+```
+import streamlit as st
+from datetime import time, datetime
+
+st.header('st.slider')
+
+# Example 1
+
+st.subheader('Slider')
+
+age = st.slider('How old are you?', 0, 20, 25, 30, 35, 40, 45, 50)
+st.write("I'm ", age, 'years old')
+
+# Example 2
+
+st.subheader('Range slider')
+
+values = st.slider(
+     'Select a range of values',
+     0.0, 100.0, (20.0, 80.0))
+st.write('Values:', values)
+
+# Example 3
+
+st.subheader('Range time slider')
+
+appointment = st.slider(
+     "Schedule your appointment:",
+     value=(time(11, 30), time(12, 45)))
+st.write("You're scheduled for:", appointment)
+
+# Example 4
+
+st.subheader('Datetime slider')
+
+start_time = st.slider(
+     "When do you start?",
+     value=datetime(2020, 1, 1, 9, 30),
+     format="MM/DD/YY - hh:mm")
+st.write("Start time:", start_time)
+```
+
+Enregistrez le fichier.   
+
+**st.slider** permet l'affichage d'un slider.
+
+Relancez votre application streamlit si nécessaire:  
+
+```
+streamlit run slt_slider_app.py
+```
+
+Vérifiez le résultat qui s'affiche sur votre navigateur.  
+
+Retournez sur le terminal et exécuter les commandes suivantes:
+
+```
+git status
+git add slt_slider_app.py
+git commit -m 'ajout d'un slider'
+git push origin main
+```
+
+
+
+https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset/data
 
