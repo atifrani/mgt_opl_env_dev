@@ -2,7 +2,15 @@
 
 ## Mise en place d'un environnement de développement local:
 
-Avant de pouvoir réellement commencer à créer des applications Streamlit, nous devrons d'abord configurer un environnement de développement.  
+Avant de pouvoir réellement commencer à créer des applications Streamlit, nous devrons d'abord configurer un environnement de développement.
+
+Les programmes Python utilisent souvent des paquets et modules qui ne font pas partie de la bibliothèque standard. Ils nécessitent aussi, parfois, une version spécifique d'une bibliothèque, par exemple parce qu'un certain bug a été corrigé ou encore que le programme a été implémenté en utilisant une version obsolète de l'interface de cette bibliothèque.  
+
+Cela signifie qu'il n'est pas toujours possible, pour une installation unique de Python, de couvrir tous les besoins de toutes les applications. Basiquement, si une application A dépend de la version 1.0 d'un module et qu'une application B dépend de la version 2.0, ces dépendances entrent en conflit et installer la version 1.0 ou 2.0 laisse une des deux applications incapable de fonctionner.  
+
+La solution est de créer un environnement virtuel, un dossier auto-suffisant qui contient une installation de Python pour une version particulière de Python ainsi que des paquets additionnels.  
+
+https://docs.python.org/fr/3/tutorial/venv.html
 
 ### Installer Conda:
 * Installez conda en allant sur https://docs.conda.io/en/latest/miniconda.html et choisissez votre système d'exploitation (Windows, Mac ou Linux).
