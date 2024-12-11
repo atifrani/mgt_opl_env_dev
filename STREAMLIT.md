@@ -129,7 +129,7 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 ```
 git status
 git add streamlit_app.py
-git commit -m 'initial streamlit app'
+git commit -m "initial streamlit app"
 git push origin main
 ```
 
@@ -178,7 +178,7 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 ```
 git status
 git add slt_button_app.py
-git commit -m 'ajout d'un bouton'
+git commit -m "ajout d'un bouton"
 git push origin button
 ```
 
@@ -266,7 +266,7 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 ```
 git status
 git add slt_slider_app.py
-git commit -m 'ajout d'un slider'
+git commit -m "ajout d'un slider"
 git push origin slider
 ```
 * Fusionner la nouvelle fonctionnalité avec la branch **main**.  
@@ -276,6 +276,123 @@ git checkout main
 git merge slider
 ```
 
+### Streamlit selectbox :white_check_mark: :
+
+Une application simple qui demande à l'utilisateur quelle est sa couleur préférée.  
+
+```
+git branch selectbox     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout selectbox   # se positionner sur la nouvelle branch
+```
+
+
+Créez un nouveau fichier slt_selectbox_app.py Copiez les lignes de code suivantes dans votre fichier slt_selectbox_app.py:  
+
+* L'utilisateur sélectionne une couleur
+* L'application affiche la couleur sélectionnée
+
+```
+import streamlit as st
+
+st.header('st.selectbox')
+
+option = st.selectbox(
+     'What is your favorite color?',
+     ('Blue', 'Red', 'Green'))
+
+st.write('Your favorite color is ', option)
+```
+
+Enregistrez le fichier.   
+
+Comme nous le voyons dans le code ci-dessus, la commande st.selectbox() accepte 2 arguments :  
+
+* Le texte qui se trouve au-dessus du widget de sélection, c'est-à-dire 'What is your favorite color?'
+* Les valeurs possibles à sélectionner parmi ('Blue', 'Red', 'Green')
+
+Relancez votre application streamlit si nécessaire:  
+
+```
+streamlit run slt_selectbox_app.py
+```
+
+Vérifiez le résultat qui s'affiche sur votre navigateur.  
+
+Retournez sur le terminal et exécuter les commandes suivantes:
+
+```
+git status
+git add slt_selectbox_app.py
+git commit -m "ajout d'un selectbox"
+git push origin selectbox
+```
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge selectbox
+```
+
+
+
+### Streamlit multiselect :white_check_mark: :white_check_mark: :
+
+Une application simple qui demande à l'utilisateur quelles sont ses couleurs préférées.  
+
+```
+git branch multiselect     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout multiselect   # se positionner sur la nouvelle branch
+```
+
+
+Créez un nouveau fichier slt_multiselect_app.py Copiez les lignes de code suivantes dans votre fichier slt_multiselect_app.py:  
+
+* L'utilisateur sélectionne deux couleurs
+* L'application affiche les deux couleur sélectionnées
+
+```
+import streamlit as st
+
+st.header('st.multiselect')
+
+options = st.multiselect(
+     'What are your favorite colors',
+     ['Green', 'Yellow', 'Red', 'Blue'],
+     ['pink', 'purple', 'orange', 'brown'])
+
+st.write('You selected:', options)
+```
+
+Enregistrez le fichier.   
+
+Relancez votre application streamlit si nécessaire:  
+
+```
+streamlit run slt_multiselect_app.py
+```
+
+Vérifiez le résultat qui s'affiche sur votre navigateur.  
+
+Retournez sur le terminal et exécuter les commandes suivantes:
+
+```
+git status
+git add slt_multiselect_app.py
+git commit -m "ajout d'un multiselect"
+git push origin multiselect
+```
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge multiselect
+```
 ### Streamlit Line Chart  :chart_with_downwards_trend:  :
 
 Une application simple pour afficher un graphique linéaire:
@@ -325,7 +442,7 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 ```
 git status
 git add slt_linechart_app.py
-git commit -m 'ajout d'un line chart'
+git commit -m "ajout d'un line chart"
 git push origin linechart
 ```
 * Fusionner la nouvelle fonctionnalité avec la branch **main**.  
@@ -383,7 +500,7 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 ```
 git status
 git add slt_barchart_app.py
-git commit -m 'ajout d'un bar chart'
+git commit -m "ajout d'un bar chart"
 git push origin barchart
 ```
 * Fusionner la nouvelle fonctionnalité avec la branch **main**.  
@@ -440,7 +557,7 @@ Retournez sur le terminal et exécuter les commandes suivantes:
 ```
 git status
 git add slt_maps_app.py
-git commit -m 'ajout d'une map'
+git commit -m "ajout d'une map"
 git push origin maps
 ```
 * Fusionner la nouvelle fonctionnalité avec la branch **main**.  
