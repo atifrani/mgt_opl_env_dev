@@ -251,6 +251,8 @@ chart_data = pd.DataFrame(
      np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
 
+chart_data
+
 st.line_chart(chart_data)
 
 ```
@@ -278,4 +280,119 @@ git push origin linechart
 ```
 git checkout main
 git merge linechart
+```
+
+### Streamlit bar Chart:
+
+Une application simple pour afficher un graphique en barre:
+
+```
+git branch barchart     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout barchart   # se positionner sur la nouvelle branch
+```
+
+Créez un nouveau fichier slt_barchart_app.py Copiez les lignes de code suivantes dans votre fichier slt_barchart_app.py:  
+
+```
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+import streamlit as st
+import pandas as pd
+ 
+st.header("Bar Chart")
+ 
+data = {"a":[23, 12, 78, 4, 54], "b":[0, 13 ,88, 1, 3], 
+"c":[45, 2, 546, 67, 56]}
+ 
+df = pd.DataFrame(data)
+df
+st.bar_chart(data=df)
+
+```
+
+Enregistrez le fichier.   
+
+Relancez votre application streamlit si nécessaire:  
+
+```
+streamlit run slt_barchart_app.py
+```
+
+Vérifiez le résultat qui s'affiche sur votre navigateur.  
+
+Retournez sur le terminal et exécuter les commandes suivantes:
+
+```
+git status
+git add slt_barchart_app.py
+git commit -m 'ajout d'un bar chart'
+git push origin barchart
+```
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge barchart
+```
+
+
+### Streamlit Maps:
+
+Une application simple pour afficher un graphique en Maps:
+
+```
+git branch maps     # Créer une nouvelle branch
+
+git branch            # vérifier que la nouvelle branch existe
+
+git checkout maps   # se positionner sur la nouvelle branch
+```
+
+Créez un nouveau fichier slt_maps_app.py Copiez les lignes de code suivantes dans votre fichier slt_mpas_app.py:  
+
+```
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+st.header("Map")
+ 
+data = {"lat":[28.704060, 28.459497, 13.082680, 17.385044, 23.0225],
+        "lon":[77.102493, 77.026634, 80.270721, 78.486671, 72.5714],
+        "City": ["Delhi", "Gurgaon", "Chennai", "Hyderabad", "Ahemdabad"]}
+ 
+df = pd.DataFrame(data)
+df
+st.map(data=df)
+
+```
+
+Enregistrez le fichier.   
+
+Relancez votre application streamlit si nécessaire:  
+
+```
+streamlit run slt_maps_app.py
+```
+
+Vérifiez le résultat qui s'affiche sur votre navigateur.  
+
+Retournez sur le terminal et exécuter les commandes suivantes:
+
+```
+git status
+git add slt_maps_app.py
+git commit -m 'ajout d'une map'
+git push origin maps
+```
+* Fusionner la nouvelle fonctionnalité avec la branch **main**.  
+
+```
+git checkout main
+git merge maps
 ```
