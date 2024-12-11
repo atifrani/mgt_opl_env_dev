@@ -171,7 +171,7 @@ else:
 ```
 Enregistrez le fichier.   
 
-***st.button** permet l'affichage d'un bouton.
+***st.button*** permet l'affichage d'un bouton.
 
 Relancez votre application streamlit si nécessaire:  
 
