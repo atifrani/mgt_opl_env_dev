@@ -1,4 +1,36 @@
+## Installation de python:
 
+Installer Python sur votre ordinateur est simple et rapide.  
+
+Voici les étapes à suivre :  
+
+* Allez sur le site officiel : https://www.python.org/downloads/
+* Choisissez la version adaptée à votre système d'exploitation (Windows, macOS, Linux).
+* Téléchargez le fichier d'installation et exécutez-le. 
+* Sur Windows, cochez la case "Ajouter Python à PATH" pour faciliter l'utilisation en ligne de commande ; sur macOS et Linux, Python est généralement déjà dans le PATH.
+* Cliquez sur "Install Now" (Windows) ou suivez les instructions à l'écran (macOS, Linux).
+
+Après l'installation, testez Python en ouvrant un terminal et tapez:
+
+```
+python --version
+```
+ou 
+
+```
+python3 --version
+```
+
+Vérifiez que **pip** est installé correctement en utilisant les commandes suivantes.
+
+```
+pip --version
+```
+ou 
+
+```
+pip --version
+```
 
 ## Mise en place d'un environnement de développement local:
 
@@ -12,28 +44,31 @@ La solution est de créer un environnement virtuel, un dossier auto-suffisant qu
 
 https://docs.python.org/fr/3/tutorial/venv.html
 
-### Installer Conda:
-* Installez conda en allant sur https://docs.conda.io/en/latest/miniconda.html et choisissez votre système d'exploitation (Windows, Mac ou Linux).
-* Téléchargez et exécutez le programme d'installation pour installer conda.
 
-### Créer un nouvel environnement Conda
-Maintenant que vous avez installé **conda**, créons un **environnement conda** pour gérer toutes les dépendances de la bibliothèque Python.  
+### Créer un nouvel environnement pyton
+Maintenant que vous avez installé **python**, créons un **environnement copythonnda** pour gérer toutes les dépendances de la bibliothèque Python.  
 
-Pour créer un nouvel environnement avec **Python 3.9**, saisissez ce qui suit :  
+Pour créer un nouvel environnement avec **Python**, saisissez ce qui suit :  
 
 ```
-conda create -n stenv python=3.9
+python -m venv stenv
 ```
-
-où **create -n stenv** créera un environnement conda nommé **stenv** et **python=3.9** configurera l'environnement conda avec Python version 3.9.
-
-
-### Activer l'environnement conda
-
-Pour utiliser un environnement conda que nous venons de créer et qui s'appelle stenv, entrez ce qui suit dans la ligne de commande :  
+ou 
 
 ```
-conda activate stenv
+python3 -m venv stenv
+```
+
+
+où **venv stenv** créera un environnement python nommé **stenv** et **python* configurera l'environnement avec Python.
+
+
+### Activer l'environnement python
+
+Pour utiliser un environnement python que nous venons de créer et qui s'appelle stenv, entrez ce qui suit dans la ligne de commande :  
+
+```
+source stenv/bin/activate 
 ```
 
 ### Installez la bibliothèque Streamlit
