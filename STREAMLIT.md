@@ -71,6 +71,16 @@ Pour utiliser un environnement python que nous venons de créer et qui s'appelle
 source stenv/bin/activate 
 ```
 
+### Désactiver un environnement python :
+
+je peux toujours désactiver cet environnement virtuel à l'aide de la commande deactivate  :
+
+:no_entry_sign:  N'exécutez pas cette commande.
+
+```
+deactivate 
+```
+
 ### Installez la bibliothèque Streamlit
 
 Il est maintenant temps d'installer la bibliothèque streamlit :  
@@ -112,7 +122,7 @@ streamlit run streamlit_app.py
 
 Une fenêtre de navigateur devrait apparaître et afficher l'application Streamlit nouvellement créée.  
 
-***Félicitations !*** Vous venez de créer votre première application Streamlit !  
+🎉 :tada: ***Félicitations !*** 🎉 :tada: :clap: :raised_hands: :point_right: :muscle: Vous venez de créer votre première application Streamlit !  
 
 Retournez sur le terminal et exécuter les commandes suivantes:
 
@@ -123,7 +133,7 @@ git commit -m 'initial streamlit app'
 git push origin main
 ```
 
-### Streamlit button:
+### Streamlit button :red_circle: :  
 
 * Une application simple qui affiche des messages différents selon que le bouton ait été pressé ou non.
 Déroulement de l'application :  
@@ -179,7 +189,7 @@ git checkout main
 git merge button
 ```
 
-### Streamlit Slider:
+### Streamlit Slider :left_right_arrow: :
 
 Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le slider.  
 
@@ -266,7 +276,7 @@ git checkout main
 git merge slider
 ```
 
-### Streamlit Line Chart:
+### Streamlit Line Chart  :chart_with_downwards_trend:  :
 
 Une application simple pour afficher un graphique linéaire:
 
@@ -325,7 +335,7 @@ git checkout main
 git merge linechart
 ```
 
-### Streamlit bar Chart:
+### Streamlit bar Chart :bar_chart: :
 
 Une application simple pour afficher un graphique en barre:
 
@@ -384,7 +394,7 @@ git merge barchart
 ```
 
 
-### Streamlit Maps:
+### Streamlit Maps :earth_americas: :
 
 Une application simple pour afficher un graphique en Maps:
 

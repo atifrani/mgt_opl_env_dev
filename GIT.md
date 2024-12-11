@@ -447,3 +447,6 @@ Pour pousser les modifications sur votre dépôt distant, utilisez la commande *
 git push origin main
 ```
 Vérifiez que les modifications sont bien sur votre dépôt distant github.
+
+
+***COFFEE TIME***   :coffee:  :coffee:  :coffee:
