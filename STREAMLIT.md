@@ -225,8 +225,8 @@ st.header('st.slider')
 
 st.subheader('Slider')
 
-age = st.slider('How old are you?', 0.0, 100.0)
-st.write("My age is:"age)
+age = st.slider('How old are you?', 0, 100)
+st.write("My age:", age)
 
 # Example 2
 
