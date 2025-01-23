@@ -90,9 +90,14 @@ Une fois la configuration terminée, vous découvrez l'interface utilisateur de 
 ![alt text](images/image6.png)
 
 ## Générer la clé API OpenAI
-Une fois que vous avez créé votre compte OpenAI ouet que vous vous êtes connecté à votre compte, vous verrez les initiales de votre nom et l'icône de votre profil dans le coin supérieur droit du tableau de bord OpenAI. Pour générer une clé API OpenAI, appuyez sur votre nom pour afficher le menu déroulant. Cliquez sur l'option « Afficher les clés API » **View API keys**.
+Une fois que vous avez créé votre compte OpenAI et que vous vous êtes connecté à votre compte sur ce lien **https://platform.openai.com/**, vous verrez les initiales de votre nom et l'icône de votre profil dans le coin supérieur droit du tableau de bord OpenAI. Pour générer une clé API OpenAI, appuyez sur **dashboard** afficher le menu déroulant. Cliquez sur l'option « les clés API » **API keys**.
 
-À ce stade, vous verrez une fenêtre avec l’option « Créer une nouvelle clé secrète » près du centre. Cliquez sur cette option pour en obtenir une. Assurez-vous d’enregistrer cette clé API nouvellement générée dès que possible. En effet, vous ne pourrez plus voir la clé API OpenAI complète une fois la fenêtre fermée.  
+
+À ce stade, vous verrez une fenêtre avec l’option « Créer une nouvelle clé secrète » **Create new secret key** près du centre. Cliquez sur cette option pour en obtenir une. Assurez-vous d’enregistrer cette clé API nouvellement générée dès que possible. En effet, vous ne pourrez plus voir la clé API OpenAI complète une fois la fenêtre fermée.  
+
+![alt text](images/key1.png)
+
+![alt text](images/key2.png)
 
 ## Creation d'un virtual environnement:
 
@@ -377,5 +382,13 @@ La selection doit permettre de choisir une des valeurs suivante:
 
 2. ajoutez un **slider** qui permettra de choisir le nombre maximum de jetons  ** variable max_tokens** pouvant être générés dans le modéle de GPT.  
 La selection doit permettre de choisir une valeur en 0 et 500. La valeur choisie doit être affecter à la variable **max_tokens** dans le code.
+
+
+## Livrable:
+
+Le livrable doit être un dépôt github public avec le code des deux applications streamlit et un fichier **README.md** contenant:
+
+1. les noms des membres
+2. les commandes à suivres pour récupérer votre code sur un pc et comment l'exécuter.
 
 
