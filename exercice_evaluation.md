@@ -22,6 +22,10 @@ Connectez vous sur votre compte github pour créer un nouveau dépôt.
 
 5. Sélectionnez **Créer un référentiel** et félicitations ! Vous venez de créer un référentiel !
 
+6. Invitez les membres de votre groupe sur le projet git.
+
+![alt text](images/image7.png)
+
 Une fois le dépôt créé, copiez le sur votre ordinateur en utilisant la commande **git clone**.
 
 1. Ouvrez **VSCODE** sur votre ordinateur
