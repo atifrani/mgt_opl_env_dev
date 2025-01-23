@@ -349,6 +349,7 @@ Copiez et collez les lignes ci-dessous, ajoutez les dans le fichier **chatbotgpt
                 for m in st.session_state.messages
             ],
             stream=True,
+            max_tokens = 200,
         )
         response = st.write_stream(stream)
     st.session_state.messages.append({"role": "assistant", "content": response})
