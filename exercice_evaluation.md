@@ -293,7 +293,7 @@ OPENAI_API_KEY = "YOUR_API_KEY"
 
 Mettez à jour la valeur de "YOUR_API_KEY" avec votre clé Openai et sauvegardez le fichier.
 
-6. Ajoutez le dossier **.streamlit** au fichier **.gitignore** et sauvegardez le fichier.
+6. Ajoutez le dossier **.streamlit** et le fichier **secrets.toml** au fichier **.gitignore** et sauvegardez le fichier.
 
 7. Réalisez le workflow de base pour enregistrer les modifications dans votre dépôt git.
 
