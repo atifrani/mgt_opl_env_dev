@@ -390,5 +390,6 @@ Le livrable doit être un dépôt github public avec le code des deux applicatio
 
 1. les noms des membres
 2. les commandes à suivres pour récupérer votre code sur un pc et comment l'exécuter.
+3. Envoyer le lien de votre projet github sur l'adresse axel@logbrain.fr
 
 
