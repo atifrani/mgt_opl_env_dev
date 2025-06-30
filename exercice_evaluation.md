@@ -78,6 +78,30 @@ Ce projet évaluera vos compétences en :
 4. Documentation et soumission
   * Finalisation du fichier README.md.
 
-Préparation de la présentation ou démonstration.
+# Jeux de données :
+
+Chaque groupe se verra attribuer une thématique parmi celles listées ci-dessous, chacune accompagnée d'un jeu de données permettant une analyse approfondie.  
+
+* https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025?select=electric_vehicles_spec_2025.csv.csv
+
+* https://www.kaggle.com/datasets/michaelhakim/walmart-sales-analysis?select=Walmart_sales_analysis.csv
+
+* https://www.kaggle.com/datasets/nimishasen27/spotify-dataset
+
+* https://www.kaggle.com/datasets/abhinavrongala/netflix-datasets-evaluation?select=Netflix+Datasets+Evaluation+MS+Excel.csv
+
+* https://www.kaggle.com/datasets/harishthakur995/mcdonald-vs-burger-king
+
+* https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+
+* https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
+
+* https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
+
+* https://www.kaggle.com/datasets/shariful07/student-mental-health?select=Student+Mental+health.csv
+
+* https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
+
+
 
 
