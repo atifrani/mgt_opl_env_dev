@@ -45,7 +45,7 @@ La solution est de créer un environnement virtuel, un dossier auto-suffisant qu
 https://docs.python.org/fr/3/tutorial/venv.html
 
 
-### Créer un nouvel environnement pyton
+### Créer un nouvel environnement python
 Maintenant que vous avez installé **python**, créons un **environnement copythonnda** pour gérer toutes les dépendances de la bibliothèque Python.  
 
 Pour créer un nouvel environnement avec **Python**, saisissez ce qui suit :  
