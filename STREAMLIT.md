@@ -106,10 +106,18 @@ streamlit hello
 ```
 
 ### Construire votre première application Streamlit
- 
-Lancez votre IDE VS Code.
 
-Créez un projet (repertoire) appelé streamlit-project, à l'interieur du projet créez un fichier streamlit_app.py.  
+Connectez vous à votre compte github.  
+
+Créez un nouveau dépôt publique **streamlit_applications**.  
+
+Copiez le lien de votre dépôt pour le cloner.  
+ 
+Lancez votre IDE VS Code et ouvrez un terminale.
+
+Depuis votre terminale clonez le dépôt **streamlit_applications**.   
+
+Allez dans votre dépôt local et à l'interieur du dépôt créez un fichier streamlit_app.py.  
 
 Saisie de vos premières lignes de code dans le fichier nouvellement créé, entrez les lignes de code suivantes :  
 
