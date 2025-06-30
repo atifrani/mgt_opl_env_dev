@@ -90,7 +90,7 @@ print(result)
 
 ### Lecture d'un fichier CSV
 ```python
-db.execute("CREATE TABLE titanic AS SELECT * FROM read_csv_auto('titanic.csv')")
+db.execute("CREATE TABLE titanic AS SELECT * FROM read_csv_auto('data/titanic.csv')")
 result = db.execute("SELECT COUNT(*) FROM titanic").fetchall()
 print(result)
 ```
