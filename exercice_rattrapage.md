@@ -1,5 +1,5 @@
 
-# streamlitbot: Construire un Chatbot LLM.
+# streamlitbot: Construire un dashboard 
 
 ## Introduction:
 L'avénement des LLM comme GPT a révolutionné le développement d'application de chatbot.
@@ -15,7 +15,7 @@ Connectez vous sur votre compte github pour créer un nouveau dépôt.
 ![alt text](images/image1.png)
 
 
-2. Saisissez un nom pour votre référentiel **streamlitbot** et une description facultative.
+2. Saisissez un nom pour votre référentiel **streamlitdash** et une description facultative.
 
 3. Choisissez une visibilité **public** du référentiel.
 
