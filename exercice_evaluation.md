@@ -15,6 +15,9 @@ Ce projet évaluera vos compétences en :
 
 * Utilisation de Git pour la collaboration.
 
+
+
+https://logbrain-my.sharepoint.com/:x:/g/personal/axel_logbrain_fr/Ee50kcA2dEhOk8ofK6oaa4YBR-WduApeuUCqD-qjAnT6PQ?e=ApTjqM
 * Manipulation de données avec DuckDB.
 
 * Développement d'interfaces interactives avec Streamlit.
