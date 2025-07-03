@@ -15,9 +15,6 @@ Ce projet évaluera vos compétences en :
 
 * Utilisation de Git pour la collaboration.
 
-
-
-https://logbrain-my.sharepoint.com/:x:/g/personal/axel_logbrain_fr/Ee50kcA2dEhOk8ofK6oaa4YBR-WduApeuUCqD-qjAnT6PQ?e=ApTjqM
 * Manipulation de données avec DuckDB.
 
 * Développement d'interfaces interactives avec Streamlit.
@@ -111,4 +108,6 @@ Chaque groupe se verra attribuer une thématique parmi celles listées ci-dessou
 
 ## 📬 Soumission
 Envoyez votre livrable avec intitulé **MBAESG_EVALUATION_ARCHITECTURE_BIGDATA** à l'adresse suivante : axel@logbrain.fr
+
+https://logbrain-my.sharepoint.com/:x:/g/personal/axel_logbrain_fr/Ee50kcA2dEhOk8ofK6oaa4YBR-WduApeuUCqD-qjAnT6PQ?e=ApTjqM
 
