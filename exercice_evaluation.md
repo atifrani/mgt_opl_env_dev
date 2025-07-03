@@ -85,29 +85,20 @@ Envoyez votre livrable avec intitulé **MBAESG_EVALUATION_MANAGEMENT_OPERATIONNE
 
 Chaque groupe se verra attribuer une thématique parmi celles listées ci-dessous, chacune accompagnée d'un jeu de données permettant une analyse approfondie.  
 
-* https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025?select=electric_vehicles_spec_2025.csv.csv
-
-* https://www.kaggle.com/datasets/michaelhakim/walmart-sales-analysis?select=Walmart_sales_analysis.csv
-
-* https://www.kaggle.com/datasets/nimishasen27/spotify-dataset
-
-* https://www.kaggle.com/datasets/abhinavrongala/netflix-datasets-evaluation?select=Netflix+Datasets+Evaluation+MS+Excel.csv
-
-* https://www.kaggle.com/datasets/harishthakur995/mcdonald-vs-burger-king
-
-* https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
-
-* https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
-
-* https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
-
-* https://www.kaggle.com/datasets/shariful07/student-mental-health?select=Student+Mental+health.csv
-
-* https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
+1. https://www.kaggle.com/datasets/urvishahir/electric-vehicle-specifications-dataset-2025?select=electric_vehicles_spec_2025.csv.csv
+2. https://www.kaggle.com/datasets/michaelhakim/walmart-sales-analysis?select=Walmart_sales_analysis.csv
+3. https://www.kaggle.com/datasets/nimishasen27/spotify-dataset
+4. https://www.kaggle.com/datasets/abhinavrongala/netflix-datasets-evaluation?select=Netflix+Datasets+Evaluation+MS+Excel.csv
+5. https://www.kaggle.com/datasets/harishthakur995/mcdonald-vs-burger-king
+6. https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset
+7. https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
+8. https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
+9. https://www.kaggle.com/datasets/shariful07/student-mental-health?select=Student+Mental+health.csv
+10. https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
+11. https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset
+12. https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata
 
 
 ## 📬 Soumission
 Envoyez votre livrable avec intitulé **MBAESG_EVALUATION_ARCHITECTURE_BIGDATA** à l'adresse suivante : axel@logbrain.fr
-
-https://logbrain-my.sharepoint.com/:x:/g/personal/axel_logbrain_fr/Ee50kcA2dEhOk8ofK6oaa4YBR-WduApeuUCqD-qjAnT6PQ?e=ApTjqM
 
