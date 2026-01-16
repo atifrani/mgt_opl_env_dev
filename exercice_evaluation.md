@@ -100,5 +100,5 @@ Chaque groupe se verra attribuer une thématique parmi celles listées ci-dessou
 
 
 ## 📬 Soumission
-Envoyez votre livrable avec intitulé **MBAESG_EVALUATION_ENv_DEVOPS** à l'adresse suivante : axel@logbrain.fr
+Envoyez votre livrable avec intitulé **MBAESG_EVALUATION_ENV_DEVOPS** à l'adresse suivante : axel@logbrain.fr
 
