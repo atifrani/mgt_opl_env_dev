@@ -95,7 +95,7 @@ Chaque groupe se verra attribuer une thématique parmi celles listées ci-dessou
 8. https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
 9. https://www.kaggle.com/datasets/shariful07/student-mental-health?select=Student+Mental+health.csv
 10. https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
-11. https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset
+11. https://www.kaggle.com/datasets/ayeshasiddiqa123/customer-shopping-behavior-dataset
 12. https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata
 
 
