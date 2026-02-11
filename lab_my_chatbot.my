@@ -1,8 +1,3 @@
-````markdown
-# Exercice : Développer un “Mini-ChatGPT” avec Streamlit in Snowflake et Snowflake Cortex
-
----
-
 ## 🎯 Objectif
 
 Concevoir une application web de type **ChatGPT** avec :
@@ -13,8 +8,6 @@ Concevoir une application web de type **ChatGPT** avec :
 - **Sans utiliser de clé OpenAI**
 
 L’application devra permettre à un utilisateur de discuter avec un modèle LLM directement depuis l’interface Streamlit déployée dans Snowflake.
-
----
 
 ## 🧱 Contexte et prérequis
 
@@ -31,11 +24,9 @@ Les étudiants doivent disposer :
   - SQL de base
   - Notions de LLM et prompt engineering
 
----
 
 # 📌 Travail demandé
 
----
 
 ## Partie A — Mise en place de l’environnement Snowflake
 
@@ -76,7 +67,6 @@ Développer une interface de type ChatGPT comprenant :
 - Stockage des messages sous forme :
   ```python
   {"role": "user/assistant/system", "content": "..."}
-````
 
 * Ne pas afficher le message `system` dans l’interface
 
@@ -85,7 +75,6 @@ Développer une interface de type ChatGPT comprenant :
 * Code Streamlit fonctionnel
 * Interface conversationnelle opérationnelle
 
----
 
 ## Partie C — Intégration Snowflake Cortex
 
@@ -117,9 +106,8 @@ L’application doit :
 * Code démontrant l’appel à Cortex
 * Réponse générée affichée dans le chat
 
----
 
-## Partie D — Persistance (Optionnel mais recommandé)
+## Partie D — Persistance
 
 Créer une table Snowflake :
 
@@ -142,7 +130,6 @@ Fonctionnalités attendues :
 * Code d’insertion
 * (Optionnel) Fonction de reload
 
----
 
 # 📦 Livrables attendus (final)
 
@@ -189,8 +176,6 @@ Les étudiants doivent envoyer le **lien du repository GitHub public** à :
 
 **[axel@logbrain.fr](mailto:axel@logbrain.fr)**
 
----
-
 # 📊 Critères d’évaluation
 
 | Critère               | Attendu                          |
@@ -203,8 +188,6 @@ Les étudiants doivent envoyer le **lien du repository GitHub public** à :
 | Qualité GitHub        | Organisation et bonnes pratiques |
 | Reproductibilité      | Projet relançable facilement     |
 
----
-
 # 🧠 Questions de validation
 
 Les étudiants doivent répondre dans le README :
@@ -215,8 +198,6 @@ Les étudiants doivent répondre dans le README :
 4. Quelles difficultés techniques avez-vous rencontrées ?
 5. Comment garantir la confidentialité des conversations stockées ?
 
----
-
 # ⭐ Bonus (facultatif)
 
 * Implémentation d’un mini-RAG
@@ -224,8 +205,6 @@ Les étudiants doivent répondre dans le README :
 * Export conversation en JSON/CSV
 * Gestion multi-utilisateur
 * Ajout d’un système de logs
-
----
 
 ## Résultat attendu
 
@@ -235,6 +214,3 @@ Une application conversationnelle complète :
 * Connectée à Snowflake Cortex
 * Documentée professionnellement
 * Déployable et reproductible
-
-```
-```
