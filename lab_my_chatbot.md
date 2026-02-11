@@ -7,6 +7,14 @@ Concevoir une application web de type **ChatGPT** avec :
 - Utilisant **Snowflake Cortex** pour interagir avec un LLM supporté par Cortex
 - **Sans utiliser de clé OpenAI**
 
+** Pour activer le model LLM sur votre compte snowflake**
+
+```
+SHOW PARAMETERS LIKE 'CORTEX_ENABLED_CROSS_REGION' IN ACCOUNT;
+
+ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
+
+```
 L’application devra permettre à un utilisateur de discuter avec un modèle LLM directement depuis l’interface Streamlit déployée dans Snowflake.
 
 ## 🧱 Contexte et prérequis
