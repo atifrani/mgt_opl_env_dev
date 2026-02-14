@@ -16,7 +16,7 @@ st.write("Cette application analyse les données des passagers du Titanic en uti
 # Fonction pour charger les données de démonstration du Titanic
 def charger_donnees_titanic_demo():
     # URL des données Titanic de démonstration
-    url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
+    url = "https://github.com/atifrani/mgt_opl_env_dev/blob/main/data/titanic.csv"
     return pd.read_csv(url)
 
 # Sidebar pour le chargement des données
